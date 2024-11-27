@@ -1,0 +1,84 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: radial-gradient(circle, #0f0c29, #302b63, #24243e);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 3rem;
+    color: #f4e04d;
+    text-shadow: 2px 2px 5px #f76c6c;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #f6f6f6;
+    margin-bottom: 30px;
+}
+
+#tree-container {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.tree-line {
+    text-align: center;
+    color: white;
+}
+
+.star {
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 0 0 5px yellow;
+}
+
+.bulb {
+    font-weight: bold;
+    text-shadow: 0 0 10px;
+    transition: color 0.5s;
+}
+
+.bulb-red {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+.bulb-green {
+    color: green;
+    text-shadow: 0 0 10px green;
+}
+
+.bulb-blue {
+    color: blue;
+    text-shadow: 0 0 10px blue;
+}
+
+.bulb-yellow {
+    color: gold;
+    text-shadow: 0 0 10px gold;
+}
+
+.bulb-purple {
+    color: purple;
+    text-shadow: 0 0 10px purple;
+}
+
+.bulb-cyan {
+    color: cyan;
+    text-shadow: 0 0 10px cyan;
+}
+
+.trunk {
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
