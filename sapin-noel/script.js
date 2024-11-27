@@ -6,7 +6,7 @@ function drawTree(height, toggle) {
         const line = document.createElement('div');
         line.className = 'tree-line';
 
-        for (let j = 0; j < height - i - 1; j++) {
+        for (let j = 0; j < ____; j++) {
             const space = document.createElement('span');
             space.textContent = ' ';
             line.appendChild(space);
@@ -14,8 +14,8 @@ function drawTree(height, toggle) {
 
         for (let j = 0; j < 2 * i + 1; j++) {
             const span = document.createElement('span');
-            span.textContent = j % 2 === 0 ? '*' : 'o';
-            span.className = j % 2 === 0 ? 'star' : getRandomBulbClass(toggle);
+            span.textContent = ____ ? '*' : 'o';
+            span.className = ____ ? 'star' : getRandomBulbClass(toggle);
             line.appendChild(span);
         }
 
@@ -27,7 +27,7 @@ function drawTree(height, toggle) {
     for (let i = 0; i < trunkHeight; i++) {
         const trunk = document.createElement('div');
         trunk.className = 'trunk';
-        trunk.textContent = ' '.repeat(height - Math.floor(trunkWidth / 2) - 1) + '|'.repeat(trunkWidth);
+        trunk.textContent = ' '.repeat(____ - Math.floor(____ / 2) - 1) + '|'.repeat(____);
         treeContainer.appendChild(trunk);
     }
 }
@@ -40,8 +40,8 @@ function getRandomBulbClass(toggle) {
 }
 
 function main() {
-    let height = prompt("Quelle hauteur pour ton sapin ? (entre 5 et 30)");
-    height = parseInt(height);
+    let height = ____("Quelle hauteur pour ton sapin ? (entre 5 et 30)"); 
+    height = parseInt(____);
 
     if (isNaN(height) || height < 5 || height > 30) {
         alert("Veuillez entrer un nombre entre 5 et 30.");
@@ -52,7 +52,7 @@ function main() {
 
     setInterval(() => {
         drawTree(height, toggle);
-        toggle = !toggle;
+        toggle = ____;
     }, 1000);
 
     drawTree(height, toggle);
