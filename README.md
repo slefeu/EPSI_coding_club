@@ -37,7 +37,7 @@ To run the project with live updates:
 ```bash
 npm run start
 ```
-Open your browser and navigate to the local server (`http://localhost:3000`) to see the project in action.
+Open your browser and navigate to the local server (`http://localhost:8080`) to see the project in action.
 
 ## **How It Works**
 
