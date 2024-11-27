@@ -8,8 +8,6 @@ Welcome to the **EPSI Coding Club** project! This is a fun and interactive Chris
 - 🪵 Proportional trunk for a realistic design.
 - 🖥️ Fully responsive to various screen sizes.
 
----
-
 ## **Getting Started**
 
 Follow these instructions to get the project up and running on your local machine.
@@ -18,8 +16,6 @@ Follow these instructions to get the project up and running on your local machin
 Ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (which includes npm)
 - [Python](https://www.python.org/) (for running the local server)
-
----
 
 ## **Project Setup**
 
@@ -36,17 +32,12 @@ Ensure you have the following installed:
    npm install
    ```
 
----
-
 ### **Compile and start the project**
 To run the project with live updates:
 ```bash
 npm run start
 ```
 Open your browser and navigate to the local server (`http://localhost:3000`) to see the project in action.
-
----
-
 
 ## **How It Works**
 
@@ -55,8 +46,6 @@ The project generates a customizable Christmas tree based on user input:
 - **Dynamic Rendering**: Each level of the tree is dynamically created using JavaScript.
 - **Blinking Lights**: The lights on the tree change colors periodically for a festive effect.
 
----
-
 ## **Contributing**
 
 Contributions are welcome! If you'd like to improve the project or fix any issues:
@@ -64,13 +53,9 @@ Contributions are welcome! If you'd like to improve the project or fix any issue
 2. Create a new branch for your feature or bugfix.
 3. Submit a pull request.
 
----
-
 ## **License**
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit.
-
----
 
 ## **Contact**
 
